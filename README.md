@@ -98,6 +98,10 @@ Firmware 1.4
  at the end of the main-Task. In the case the Batterylevel-Shutdown is configured,
  the StromPi3 give a shutdown-signal to the Raspberry Pi and cuts of the PowerPath in a fixed 10 seconds timer,
  when the Battery has been discharged to the configured level.
+ 
+Firmware 1.4a
+- Changed Default Value on GPIO Reset to 1
+- Serial-less Mode added to power warning
 
 ******************************************************************************************************************
 	
